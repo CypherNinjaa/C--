@@ -48,10 +48,14 @@ This tree is auto-generated from the module folders and hides compiled `.exe` fi
 C++/
 `-- Module 02/
     |-- ArithmeticOperators/
+    |   |-- AreaOfCircle.cpp
     |   |-- arithmaticoperators.cpp
+    |   |-- BooleanDataType.cpp
+    |   |-- CalculatePercentage.cpp
     |   |-- FindReminder.cpp
     |   |-- FloatDataTypes.cpp
-    |   `-- incrementDecrement.cpp
+    |   |-- incrementDecrement.cpp
+    |   `-- ModulusOperator.cpp
     |-- escape sequence/
     |   |-- helloworld.cpp
     |   |-- printing_number.cpp
