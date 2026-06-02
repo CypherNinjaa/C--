@@ -77,15 +77,15 @@ g++ "Module 02\ArithmeticOperators\incrementDecrement.cpp" -o incrementDecrement
 
 ## Commit Pulse
 
-This graph is generated from this repository's own Git history. It updates after new commits are pushed to `main`, so it shows progress for this C++ repo only.
+This chart is generated from this repository's own Git history. It updates after new commits are pushed to `main`, so it shows progress for this C++ repo only.
 
 <div align="center">
 
-![Repository Commit Graph](assets/commit-graph.svg)
+![Repository Commit Chart](assets/commit-graph.svg)
 
 </div>
 
-The graph and file tree are refreshed automatically by [update-commit-graph.yml](.github/workflows/update-commit-graph.yml).
+The chart and file tree are refreshed automatically by [update-commit-graph.yml](.github/workflows/update-commit-graph.yml).
 
 ## Learning Roadmap
 
