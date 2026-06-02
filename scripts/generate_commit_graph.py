@@ -46,19 +46,24 @@ def run_latest_commit_date() -> str:
         [
             "git",
             "log",
-            "-1",
             "--date=format:%Y-%m-%d %H:%M",
-            "--pretty=format:%ad",
-            "--",
-            ".",
-            ":(exclude)assets/commit-graph.svg",
+            "--pretty=format:%ad%x09%an%x09%ae",
         ],
         check=True,
         capture_output=True,
         text=True,
     )
-    latest = result.stdout.strip()
-    return f"{latest} repo time" if latest else "No commits yet"
+
+    for line in result.stdout.splitlines():
+        parts = line.split("\t")
+        if len(parts) != 3:
+            continue
+
+        commit_date, author_name, author_email = parts
+        if not is_bot_commit(author_name, author_email):
+            return f"{commit_date} repo time"
+
+    return "No commits yet"
 
 
 def is_bot_commit(author_name: str, author_email: str) -> bool:
