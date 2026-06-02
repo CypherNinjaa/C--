@@ -49,6 +49,7 @@ C++/
 `-- Module 02/
     |-- ArithmeticOperators/
     |   |-- arithmaticoperators.cpp
+    |   |-- FloatDataTypes.cpp
     |   `-- incrementDecrement.cpp
     |-- escape sequence/
     |   |-- helloworld.cpp
