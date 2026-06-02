@@ -1,0 +1,44 @@
+name: Update README visuals
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate repository commit graph
+        run: |
+          python scripts/generate_commit_graph.py
+          python scripts/generate_file_tree.py
+
+      - name: Commit README updates
+        run: |
+          if git diff --quiet -- README.md assets/commit-graph.svg; then
+            echo "README visuals are already up to date."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git add assets/commit-graph.svg
+          git commit -m "Update README visuals"
+          git push
