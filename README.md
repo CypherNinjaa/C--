@@ -55,7 +55,9 @@ C++/
     |   |-- FindReminder.cpp
     |   |-- FloatDataTypes.cpp
     |   |-- incrementDecrement.cpp
-    |   `-- ModulusOperator.cpp
+    |   |-- ModulusOperator.cpp
+    |   |-- pto.cpp
+    |   `-- SimpleInterest.cpp
     |-- escape sequence/
     |   |-- helloworld.cpp
     |   |-- printing_number.cpp
