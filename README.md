@@ -58,6 +58,13 @@ C++/
     |   |-- ModulusOperator.cpp
     |   |-- pto.cpp
     |   `-- SimpleInterest.cpp
+    |-- Assignments/
+    |   |-- Q1.cpp
+    |   |-- Q2.cpp
+    |   |-- Q3.cpp
+    |   |-- Q4.cpp
+    |   |-- Q5.cpp
+    |   `-- Q6.cpp
     |-- Char Data Type/
     |   |-- question on typecasting/
     |   |   |-- BrainTeaser.cpp
