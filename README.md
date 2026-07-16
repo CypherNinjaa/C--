@@ -46,49 +46,54 @@ This tree is auto-generated from the module folders and hides compiled `.exe` fi
 <!-- FILE_TREE_START -->
 ```text
 C++/
-`-- Module 02/
-    |-- ArithmeticOperators/
-    |   |-- AreaOfCircle.cpp
-    |   |-- arithmaticoperators.cpp
-    |   |-- BooleanDataType.cpp
-    |   |-- CalculatePercentage.cpp
-    |   |-- FindReminder.cpp
-    |   |-- FloatDataTypes.cpp
-    |   |-- incrementDecrement.cpp
-    |   |-- ModulusOperator.cpp
-    |   |-- pto.cpp
-    |   `-- SimpleInterest.cpp
-    |-- Assignments/
-    |   |-- Q1.cpp
-    |   |-- Q2.cpp
-    |   |-- Q3.cpp
-    |   |-- Q4.cpp
-    |   |-- Q5.cpp
-    |   `-- Q6.cpp
-    |-- Char Data Type/
-    |   |-- question on typecasting/
-    |   |   |-- BrainTeaser.cpp
-    |   |   |-- PrintFractionalPart.cpp
-    |   |   `-- PrintHalfOfTheNumber.cpp
-    |   |-- char.cpp
-    |   `-- Typecasting.cpp
-    |-- escape sequence/
-    |   |-- helloworld.cpp
-    |   |-- printing_number.cpp
-    |   `-- pto.cpp
-    |-- Hierachy Of Operators/
-    |   |-- pto.cpp
-    |   `-- pto2.cpp
-    |-- Taking Input From User/
-    |   |-- cinSeInput.cpp
-    |   |-- pto.cpp
-    |   `-- SumOfTwoNumber.cpp
-    |-- Types of Operator/
-    |   |-- operators.cpp
-    |   |-- PTO.cpp
-    |   `-- tempCodeRunnerFile.cpp
-    `-- Variable declaration/
-        `-- variables.cpp
+|-- .vscode/
+|   `-- tasks.json
+|-- Module 02/
+|   |-- ArithmeticOperators/
+|   |   |-- AreaOfCircle.cpp
+|   |   |-- arithmaticoperators.cpp
+|   |   |-- BooleanDataType.cpp
+|   |   |-- CalculatePercentage.cpp
+|   |   |-- FindReminder.cpp
+|   |   |-- FloatDataTypes.cpp
+|   |   |-- incrementDecrement.cpp
+|   |   |-- ModulusOperator.cpp
+|   |   |-- pto.cpp
+|   |   `-- SimpleInterest.cpp
+|   |-- Assignments/
+|   |   |-- Q1.cpp
+|   |   |-- Q2.cpp
+|   |   |-- Q3.cpp
+|   |   |-- Q4.cpp
+|   |   |-- Q5.cpp
+|   |   `-- Q6.cpp
+|   |-- Char Data Type/
+|   |   |-- question on typecasting/
+|   |   |   |-- BrainTeaser.cpp
+|   |   |   |-- PrintFractionalPart.cpp
+|   |   |   `-- PrintHalfOfTheNumber.cpp
+|   |   |-- char.cpp
+|   |   `-- Typecasting.cpp
+|   |-- escape sequence/
+|   |   |-- helloworld.cpp
+|   |   |-- printing_number.cpp
+|   |   `-- pto.cpp
+|   |-- Hierachy Of Operators/
+|   |   |-- pto.cpp
+|   |   `-- pto2.cpp
+|   |-- Taking Input From User/
+|   |   |-- cinSeInput.cpp
+|   |   |-- pto.cpp
+|   |   `-- SumOfTwoNumber.cpp
+|   |-- Types of Operator/
+|   |   |-- operators.cpp
+|   |   |-- PTO.cpp
+|   |   `-- tempCodeRunnerFile.cpp
+|   `-- Variable declaration/
+|       `-- variables.cpp
+`-- Module 03/
+    |-- DivisibleByFive.cpp
+    `-- IfElse.cpp
 ```
 <!-- FILE_TREE_END -->
 
