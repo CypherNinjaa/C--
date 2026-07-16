@@ -66,6 +66,10 @@ C++/
     |   |-- cinSeInput.cpp
     |   |-- pto.cpp
     |   `-- SumOfTwoNumber.cpp
+    |-- Types of Operator/
+    |   |-- operators.cpp
+    |   |-- PTO.cpp
+    |   `-- tempCodeRunnerFile.cpp
     `-- Variable declaration/
         `-- variables.cpp
 ```
