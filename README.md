@@ -93,6 +93,7 @@ C++/
 |       `-- variables.cpp
 `-- Module 03/
     |-- AbsoluteValue.cpp
+    |-- CheckThreeDigitNumber.cpp
     |-- DivisibleByFive.cpp
     |-- IfElse.cpp
     `-- ProfitAndLoss.cpp
