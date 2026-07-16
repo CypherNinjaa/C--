@@ -59,7 +59,10 @@ C++/
     |   |-- pto.cpp
     |   `-- SimpleInterest.cpp
     |-- Char Data Type/
-    |   |-- BrainTeaser.cpp
+    |   |-- question on typecasting/
+    |   |   |-- BrainTeaser.cpp
+    |   |   |-- PrintFractionalPart.cpp
+    |   |   `-- PrintHalfOfTheNumber.cpp
     |   |-- char.cpp
     |   `-- Typecasting.cpp
     |-- escape sequence/
