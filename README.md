@@ -62,6 +62,10 @@ C++/
     |   |-- helloworld.cpp
     |   |-- printing_number.cpp
     |   `-- pto.cpp
+    |-- Taking Input From User/
+    |   |-- cinSeInput.cpp
+    |   |-- pto.cpp
+    |   `-- SumOfTwoNumber.cpp
     `-- Variable declaration/
         `-- variables.cpp
 ```
