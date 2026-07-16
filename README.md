@@ -69,6 +69,9 @@ C++/
     |   |-- helloworld.cpp
     |   |-- printing_number.cpp
     |   `-- pto.cpp
+    |-- Hierachy Of Operators/
+    |   |-- pto.cpp
+    |   `-- pto2.cpp
     |-- Taking Input From User/
     |   |-- cinSeInput.cpp
     |   |-- pto.cpp
