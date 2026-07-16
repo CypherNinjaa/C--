@@ -58,6 +58,10 @@ C++/
     |   |-- ModulusOperator.cpp
     |   |-- pto.cpp
     |   `-- SimpleInterest.cpp
+    |-- Char Data Type/
+    |   |-- BrainTeaser.cpp
+    |   |-- char.cpp
+    |   `-- Typecasting.cpp
     |-- escape sequence/
     |   |-- helloworld.cpp
     |   |-- printing_number.cpp
