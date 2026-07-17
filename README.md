@@ -93,8 +93,12 @@ C++/
 |       `-- variables.cpp
 `-- Module 03/
     |-- TernaryAndSwitch/
+    |   |-- Calulator.cpp
     |   |-- passandfail.cpp
-    |   `-- TernaryOperator.cpp
+    |   |-- PrintWeek.cpp
+    |   |-- SwitchCondition.cpp
+    |   |-- TernaryOperator.cpp
+    |   `-- TotalNumberofdays.cpp
     |-- AbsoluteValue.cpp
     |-- CheckAlphabet.cpp
     |-- checkdivisible.cpp
