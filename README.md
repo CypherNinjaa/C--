@@ -93,6 +93,8 @@ C++/
 |       `-- variables.cpp
 `-- Module 03/
     |-- AbsoluteValue.cpp
+    |-- CheckAlphabet.cpp
+    |-- checkdivisible.cpp
     |-- CheckThreeDigitNumber.cpp
     |-- DivisibleByFive.cpp
     |-- IfElse.cpp
