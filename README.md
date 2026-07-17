@@ -92,10 +92,15 @@ C++/
 |   `-- Variable declaration/
 |       `-- variables.cpp
 `-- Module 03/
+    |-- TernaryAndSwitch/
+    |   |-- passandfail.cpp
+    |   `-- TernaryOperator.cpp
     |-- AbsoluteValue.cpp
     |-- CheckAlphabet.cpp
     |-- checkdivisible.cpp
+    |-- CheckSideOfTriangle.cpp
     |-- CheckThreeDigitNumber.cpp
+    |-- CheckVowel.cpp
     |-- DivisibleByFive.cpp
     |-- IfElse.cpp
     |-- PrintGrade.cpp
