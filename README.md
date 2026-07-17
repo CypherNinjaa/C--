@@ -92,10 +92,18 @@ C++/
 |   `-- Variable declaration/
 |       `-- variables.cpp
 `-- Module 03/
+    |-- Assignments/
+    |   |-- Q1.cpp
+    |   |-- Q2.cpp
+    |   |-- Q3.cpp
+    |   |-- Q4.cpp
+    |   |-- Q5.cpp
+    |   `-- Q6.cpp
     |-- TernaryAndSwitch/
     |   |-- Calulator.cpp
     |   |-- passandfail.cpp
     |   |-- PrintWeek.cpp
+    |   |-- RealThings.cpp
     |   |-- SwitchCondition.cpp
     |   |-- TernaryOperator.cpp
     |   `-- TotalNumberofdays.cpp
