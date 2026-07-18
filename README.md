@@ -118,15 +118,17 @@ C++/
 |   |-- PrintGrade.cpp
 |   `-- ProfitAndLoss.cpp
 `-- Module 04/
-    `-- For Loop/
-        |-- Ap.cpp
-        |-- AP2.cpp
-        |-- EvenNumber1to100.cpp
-        |-- GP.cpp
-        |-- greeting.cpp
-        |-- NTimesHelloWorld.cpp
-        |-- PrintNUmber.cpp
-        `-- TableOf19.cpp
+    |-- For Loop/
+    |   |-- Ap.cpp
+    |   |-- AP2.cpp
+    |   |-- EvenNumber1to100.cpp
+    |   |-- GP.cpp
+    |   |-- greeting.cpp
+    |   |-- NTimesHelloWorld.cpp
+    |   |-- PrintNUmber.cpp
+    |   `-- TableOf19.cpp
+    `-- While Loop/
+        `-- while.cpp
 ```
 <!-- FILE_TREE_END -->
 
