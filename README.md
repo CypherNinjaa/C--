@@ -127,7 +127,9 @@ C++/
     |   |-- NTimesHelloWorld.cpp
     |   |-- PrintNUmber.cpp
     |   `-- TableOf19.cpp
-    `-- While Loop/
+    `-- While and DoWhile Loop/
+        |-- DisplayUpperCaseAlphabet.cpp
+        |-- DowhileLoop.cpp
         `-- while.cpp
 ```
 <!-- FILE_TREE_END -->
