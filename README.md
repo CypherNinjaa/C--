@@ -127,6 +127,12 @@ C++/
     |   |-- NTimesHelloWorld.cpp
     |   |-- PrintNUmber.cpp
     |   `-- TableOf19.cpp
+    |-- Questions/
+    |   |-- CountDigitNumber.cpp
+    |   |-- Factorial.cpp
+    |   |-- ReverseOfNumber.cpp
+    |   |-- SumOfDigit.cpp
+    |   `-- SumOfSeries.cpp
     |-- Questions (Brake and Continue)/
     |   |-- EvenOdd.cpp
     |   `-- PrimeOrNot.cpp
