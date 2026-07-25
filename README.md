@@ -130,6 +130,8 @@ C++/
     |-- Questions/
     |   |-- CountDigitNumber.cpp
     |   |-- Factorial.cpp
+    |   |-- Fibonacci.cpp
+    |   |-- OneNUmberRaisedTothePower.cpp
     |   |-- ReverseOfNumber.cpp
     |   |-- SumOfDigit.cpp
     |   `-- SumOfSeries.cpp
