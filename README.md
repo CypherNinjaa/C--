@@ -117,33 +117,36 @@ C++/
 |   |-- IfElse.cpp
 |   |-- PrintGrade.cpp
 |   `-- ProfitAndLoss.cpp
-`-- Module 04/
-    |-- For Loop/
-    |   |-- Ap.cpp
-    |   |-- AP2.cpp
-    |   |-- EvenNumber1to100.cpp
-    |   |-- GP.cpp
-    |   |-- greeting.cpp
-    |   |-- NTimesHelloWorld.cpp
-    |   |-- PrintNUmber.cpp
-    |   `-- TableOf19.cpp
-    |-- Questions/
-    |   |-- CountDigitNumber.cpp
-    |   |-- Factorial.cpp
-    |   |-- Fibonacci.cpp
-    |   |-- OneNUmberRaisedTothePower.cpp
-    |   |-- ReverseOfNumber.cpp
-    |   |-- SumOfDigit.cpp
-    |   `-- SumOfSeries.cpp
-    |-- Questions (Brake and Continue)/
-    |   |-- EvenOdd.cpp
-    |   `-- PrimeOrNot.cpp
-    |-- While and DoWhile Loop/
-    |   |-- DisplayUpperCaseAlphabet.cpp
-    |   |-- DowhileLoop.cpp
-    |   `-- while.cpp
-    |-- infiniteloop.cpp
-    `-- pto.cpp
+|-- Module 04/
+|   |-- For Loop/
+|   |   |-- Ap.cpp
+|   |   |-- AP2.cpp
+|   |   |-- EvenNumber1to100.cpp
+|   |   |-- GP.cpp
+|   |   |-- greeting.cpp
+|   |   |-- NTimesHelloWorld.cpp
+|   |   |-- PrintNUmber.cpp
+|   |   `-- TableOf19.cpp
+|   |-- Questions/
+|   |   |-- CountDigitNumber.cpp
+|   |   |-- Factorial.cpp
+|   |   |-- Fibonacci.cpp
+|   |   |-- OneNUmberRaisedTothePower.cpp
+|   |   |-- ReverseOfNumber.cpp
+|   |   |-- SumOfDigit.cpp
+|   |   `-- SumOfSeries.cpp
+|   |-- Questions (Brake and Continue)/
+|   |   |-- EvenOdd.cpp
+|   |   `-- PrimeOrNot.cpp
+|   |-- While and DoWhile Loop/
+|   |   |-- DisplayUpperCaseAlphabet.cpp
+|   |   |-- DowhileLoop.cpp
+|   |   `-- while.cpp
+|   |-- infiniteloop.cpp
+|   `-- pto.cpp
+`-- Module 05/
+    |-- solidRectangle.cpp
+    `-- starTriangle.cpp
 ```
 <!-- FILE_TREE_END -->
 
