@@ -147,13 +147,16 @@ C++/
 `-- Module 05/
     |-- alphabetSquare.cpp
     |-- binaryTriangle.cpp
+    |-- flippedStarTriangle.cpp
     |-- FloydsTriangle.cpp
     |-- numberSquare.cpp
+    |-- numberTraingleFlipped.cpp
     |-- oddNUmberTriangle.cpp
     |-- solidRectangle.cpp
     |-- solidSquare.cpp
     |-- starCross.cpp
-    `-- starPlus.cpp
+    |-- starPlus.cpp
+    `-- starTraingle.cpp
 ```
 <!-- FILE_TREE_END -->
 
