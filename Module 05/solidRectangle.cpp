@@ -10,13 +10,12 @@ int main()
     cin >> n;
     cout << "No of cols: ";
     cin >> m;
-    for (int i = 1; i <=n; i++)
+    for (int i = 0; i < n; i++)
     {
-        for (int j = 1; j<=m; j++)
+        for (int i = 0; i < m; i++)
         {
             cout << "*";
         }
-        cout<<endl;
+        cout << endl;
     }
-    
 }
