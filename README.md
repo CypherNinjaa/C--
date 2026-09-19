@@ -146,9 +146,7 @@ C++/
 |   `-- pto.cpp
 `-- Module 05/
     |-- solidRectangle.cpp
-    |-- starTraingleNumber.cpp
-    |-- starTraingleReverse.cpp
-    `-- starTriangle.cpp
+    `-- solidSquare.cpp
 ```
 <!-- FILE_TREE_END -->
 
