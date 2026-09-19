@@ -145,8 +145,15 @@ C++/
 |   |-- infiniteloop.cpp
 |   `-- pto.cpp
 `-- Module 05/
+    |-- alphabetSquare.cpp
+    |-- binaryTriangle.cpp
+    |-- FloydsTriangle.cpp
+    |-- numberSquare.cpp
+    |-- oddNUmberTriangle.cpp
     |-- solidRectangle.cpp
-    `-- solidSquare.cpp
+    |-- solidSquare.cpp
+    |-- starCross.cpp
+    `-- starPlus.cpp
 ```
 <!-- FILE_TREE_END -->
 
