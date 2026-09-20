@@ -151,6 +151,7 @@ C++/
     |-- FloydsTriangle.cpp
     |-- numberBridge.cpp
     |-- numberPyramidPalindrome.cpp
+    |-- numberSpiral.cpp
     |-- numberSquare.cpp
     |-- numberTraingleFlipped.cpp
     |-- oddNUmberTriangle.cpp
