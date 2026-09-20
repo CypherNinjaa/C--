@@ -149,14 +149,24 @@ C++/
     |-- binaryTriangle.cpp
     |-- flippedStarTriangle.cpp
     |-- FloydsTriangle.cpp
+    |-- numberBridge.cpp
+    |-- numberPyramidPalindrome.cpp
     |-- numberSquare.cpp
     |-- numberTraingleFlipped.cpp
     |-- oddNUmberTriangle.cpp
+    |-- oddStarTraingleReversed.cpp
+    |-- oddStarTriangle.cpp
+    |-- rhombus.cpp
     |-- solidRectangle.cpp
     |-- solidSquare.cpp
+    |-- starBridge.cpp
     |-- starCross.cpp
+    |-- starDiamond.cpp
     |-- starPlus.cpp
-    `-- starTraingle.cpp
+    |-- starPyramid.cpp
+    |-- starTraingle.cpp
+    |-- starTriangleReversed.cpp
+    `-- tempCodeRunnerFile.cpp
 ```
 <!-- FILE_TREE_END -->
 
