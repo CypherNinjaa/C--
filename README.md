@@ -145,6 +145,21 @@ C++/
 |   |-- infiniteloop.cpp
 |   `-- pto.cpp
 `-- Module 05/
+    |-- Assignments/
+    |   |-- Pattern Printing - 1.pdf
+    |   |-- Pattern Printing - 2.pdf
+    |   |-- q1.cpp
+    |   |-- q10.cpp
+    |   |-- q11.cpp
+    |   |-- q2.cpp
+    |   |-- q3.cpp
+    |   |-- q4.cpp
+    |   |-- q5.cpp
+    |   |-- q6.cpp
+    |   |-- q7.cpp
+    |   |-- q8.cpp
+    |   |-- q9.cpp
+    |   `-- tempCodeRunnerFile.cpp
     |-- alphabetSquare.cpp
     |-- binaryTriangle.cpp
     |-- flippedStarTriangle.cpp
