@@ -144,52 +144,56 @@ C++/
 |   |   `-- while.cpp
 |   |-- infiniteloop.cpp
 |   `-- pto.cpp
-`-- Module 05/
-    |-- Assignments/
-    |   |-- Pattern Printing - 1.pdf
-    |   |-- Pattern Printing - 2.pdf
-    |   |-- q1.cpp
-    |   |-- q10.cpp
-    |   |-- q11.cpp
-    |   |-- q12.cpp
-    |   |-- q13.cpp
-    |   |-- q14.cpp
-    |   |-- q15.cpp
-    |   |-- q16.cpp
-    |   |-- q17.cpp
-    |   |-- q18.cpp
-    |   |-- q2.cpp
-    |   |-- q3.cpp
-    |   |-- q4.cpp
-    |   |-- q5.cpp
-    |   |-- q6.cpp
-    |   |-- q7.cpp
-    |   |-- q8.cpp
-    |   |-- q9.cpp
-    |   `-- tempCodeRunnerFile.cpp
-    |-- alphabetSquare.cpp
-    |-- binaryTriangle.cpp
-    |-- flippedStarTriangle.cpp
-    |-- FloydsTriangle.cpp
-    |-- numberBridge.cpp
-    |-- numberPyramidPalindrome.cpp
-    |-- numberSpiral.cpp
-    |-- numberSquare.cpp
-    |-- numberTraingleFlipped.cpp
-    |-- oddNUmberTriangle.cpp
-    |-- oddStarTraingleReversed.cpp
-    |-- oddStarTriangle.cpp
-    |-- rhombus.cpp
-    |-- solidRectangle.cpp
-    |-- solidSquare.cpp
-    |-- starBridge.cpp
-    |-- starCross.cpp
-    |-- starDiamond.cpp
-    |-- starPlus.cpp
-    |-- starPyramid.cpp
-    |-- starTraingle.cpp
-    |-- starTriangleReversed.cpp
-    `-- tempCodeRunnerFile.cpp
+|-- Module 05/
+|   |-- Assignments/
+|   |   |-- Pattern Printing - 1.pdf
+|   |   |-- Pattern Printing - 2.pdf
+|   |   |-- q1.cpp
+|   |   |-- q10.cpp
+|   |   |-- q11.cpp
+|   |   |-- q12.cpp
+|   |   |-- q13.cpp
+|   |   |-- q14.cpp
+|   |   |-- q15.cpp
+|   |   |-- q16.cpp
+|   |   |-- q17.cpp
+|   |   |-- q18.cpp
+|   |   |-- q2.cpp
+|   |   |-- q3.cpp
+|   |   |-- q4.cpp
+|   |   |-- q5.cpp
+|   |   |-- q6.cpp
+|   |   |-- q7.cpp
+|   |   |-- q8.cpp
+|   |   |-- q9.cpp
+|   |   `-- tempCodeRunnerFile.cpp
+|   |-- alphabetSquare.cpp
+|   |-- binaryTriangle.cpp
+|   |-- flippedStarTriangle.cpp
+|   |-- FloydsTriangle.cpp
+|   |-- numberBridge.cpp
+|   |-- numberPyramidPalindrome.cpp
+|   |-- numberSpiral.cpp
+|   |-- numberSquare.cpp
+|   |-- numberTraingleFlipped.cpp
+|   |-- oddNUmberTriangle.cpp
+|   |-- oddStarTraingleReversed.cpp
+|   |-- oddStarTriangle.cpp
+|   |-- rhombus.cpp
+|   |-- solidRectangle.cpp
+|   |-- solidSquare.cpp
+|   |-- starBridge.cpp
+|   |-- starCross.cpp
+|   |-- starDiamond.cpp
+|   |-- starPlus.cpp
+|   |-- starPyramid.cpp
+|   |-- starTraingle.cpp
+|   |-- starTriangleReversed.cpp
+|   `-- tempCodeRunnerFile.cpp
+`-- Module 06/
+    |-- basicFunction.cpp
+    |-- combinationPermutation.cpp
+    `-- returnType.cpp
 ```
 <!-- FILE_TREE_END -->
 
