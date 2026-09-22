@@ -191,8 +191,11 @@ C++/
 |   |-- starTriangleReversed.cpp
 |   `-- tempCodeRunnerFile.cpp
 `-- Module 06/
+    |-- argumentsAdresses.cpp
     |-- basicFunction.cpp
     |-- combinationPermutation.cpp
+    |-- defaultArguments.cpp
+    |-- gcd.cpp
     `-- returnType.cpp
 ```
 <!-- FILE_TREE_END -->
