@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+int a =8;
 // formal parameters with default arguments
 // default value sare ko dena hi padega
 //receive arguments contiguously
@@ -13,5 +14,5 @@ int main()
     int a = 40;
     int b = 80;
 
-    fun(false);
+    fun();
 }
