@@ -195,8 +195,12 @@ C++/
     |-- basicFunction.cpp
     |-- combinationPermutation.cpp
     |-- defaultArguments.cpp
+    |-- factorial.cpp
     |-- gcd.cpp
-    `-- returnType.cpp
+    |-- max.cpp
+    |-- returnType.cpp
+    |-- swap.cpp
+    `-- swapWithoutTemp.cpp
 ```
 <!-- FILE_TREE_END -->
 
