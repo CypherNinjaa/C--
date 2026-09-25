@@ -190,23 +190,30 @@ C++/
 |   |-- starTraingle.cpp
 |   |-- starTriangleReversed.cpp
 |   `-- tempCodeRunnerFile.cpp
-`-- Module 06/
-    |-- Assignments/
-    |   |-- Functions (1).pdf
-    |   |-- q1.cpp
-    |   |-- q2.cpp
-    |   |-- q3.cpp
-    |   `-- q4.cpp
-    |-- argumentsAdresses.cpp
-    |-- basicFunction.cpp
-    |-- combinationPermutation.cpp
-    |-- defaultArguments.cpp
-    |-- factorial.cpp
-    |-- gcd.cpp
-    |-- max.cpp
-    |-- returnType.cpp
-    |-- swap.cpp
-    `-- swapWithoutTemp.cpp
+|-- Module 06/
+|   |-- Assignments/
+|   |   |-- Functions (1).pdf
+|   |   |-- q1.cpp
+|   |   |-- q2.cpp
+|   |   |-- q3.cpp
+|   |   `-- q4.cpp
+|   |-- argumentsAdresses.cpp
+|   |-- basicFunction.cpp
+|   |-- combinationPermutation.cpp
+|   |-- defaultArguments.cpp
+|   |-- factorial.cpp
+|   |-- gcd.cpp
+|   |-- max.cpp
+|   |-- returnType.cpp
+|   |-- swap.cpp
+|   `-- swapWithoutTemp.cpp
+`-- Module 07/
+    |-- dereferenceOperator.cpp
+    |-- pointerIntro.cpp
+    |-- pto.cpp
+    |-- revistingVariables.cpp
+    |-- sumNumber.cpp
+    `-- syntaxProblem.cpp
 ```
 <!-- FILE_TREE_END -->
 
