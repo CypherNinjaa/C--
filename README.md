@@ -191,6 +191,12 @@ C++/
 |   |-- starTriangleReversed.cpp
 |   `-- tempCodeRunnerFile.cpp
 `-- Module 06/
+    |-- Assignments/
+    |   |-- Functions (1).pdf
+    |   |-- q1.cpp
+    |   |-- q2.cpp
+    |   |-- q3.cpp
+    |   `-- q4.cpp
     |-- argumentsAdresses.cpp
     |-- basicFunction.cpp
     |-- combinationPermutation.cpp
