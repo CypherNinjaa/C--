@@ -207,27 +207,34 @@ C++/
 |   |-- returnType.cpp
 |   |-- swap.cpp
 |   `-- swapWithoutTemp.cpp
-`-- Module 07/
-    |-- Assignments/
-    |   |-- Pointers (1).pdf
-    |   |-- Pointers.pdf
-    |   `-- q1.cpp
+|-- Module 07/
+|   |-- Assignments/
+|   |   |-- Pointers (1).pdf
+|   |   |-- Pointers.pdf
+|   |   `-- q1.cpp
+|   |-- Resources/
+|   |   |-- C++_Pointers_annotated.pdf
+|   |   `-- Pointers (2).pdf
+|   |-- arithmetic.cpp
+|   |-- dereferenceOperator.cpp
+|   |-- DoublePointer.cpp
+|   |-- firstAndLast.cpp
+|   |-- nullPointer.cpp
+|   |-- passAlias.cpp
+|   |-- passByReference.cpp
+|   |-- pointerIntro.cpp
+|   |-- pto.cpp
+|   |-- revistingVariables.cpp
+|   |-- sumNumber.cpp
+|   |-- syntaxProblem.cpp
+|   `-- voidPointer.cpp
+`-- Module 08/
     |-- Resources/
-    |   |-- C++_Pointers_annotated.pdf
-    |   `-- Pointers (2).pdf
-    |-- arithmetic.cpp
-    |-- dereferenceOperator.cpp
-    |-- DoublePointer.cpp
-    |-- firstAndLast.cpp
-    |-- nullPointer.cpp
-    |-- passAlias.cpp
-    |-- passByReference.cpp
-    |-- pointerIntro.cpp
-    |-- pto.cpp
-    |-- revistingVariables.cpp
-    |-- sumNumber.cpp
-    |-- syntaxProblem.cpp
-    `-- voidPointer.cpp
+    |   `-- array1annotated.pdf
+    |-- marks.cpp
+    |-- memoryAllocation.cpp
+    |-- sizeOperator.cpp
+    `-- syntaxAndDeclaration.cpp
 ```
 <!-- FILE_TREE_END -->
 
