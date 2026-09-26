@@ -228,18 +228,29 @@ C++/
 |   |-- sumNumber.cpp
 |   |-- syntaxProblem.cpp
 |   `-- voidPointer.cpp
-`-- Module 08/
-    |-- Resources/
-    |   `-- array1annotated.pdf
-    |-- countGreater.cpp
-    |-- LinearSearch.cpp
-    |-- marks.cpp
-    |-- maximumInArray.cpp
-    |-- memoryAllocation.cpp
-    |-- secondLargest.cpp
-    |-- sizeOperator.cpp
-    |-- sumOfArray.cpp
-    `-- syntaxAndDeclaration.cpp
+|-- Module 08/
+|   |-- Assignments/
+|   |   |-- Array and Vector.pdf
+|   |   |-- Arrays - 1(1).pdf
+|   |   |-- Arrays - 1.pdf
+|   |   |-- q1.cpp
+|   |   |-- q2.cpp
+|   |   |-- q3.cpp
+|   |   |-- q4.cpp
+|   |   `-- q5.cpp
+|   |-- Resources/
+|   |   `-- array1annotated.pdf
+|   |-- countGreater.cpp
+|   |-- LinearSearch.cpp
+|   |-- marks.cpp
+|   |-- maximumInArray.cpp
+|   |-- memoryAllocation.cpp
+|   |-- secondLargest.cpp
+|   |-- sizeOperator.cpp
+|   |-- sumOfArray.cpp
+|   `-- syntaxAndDeclaration.cpp
+`-- Module 9/
+    `-- passingArrayToFunction.cpp
 ```
 <!-- FILE_TREE_END -->
 
