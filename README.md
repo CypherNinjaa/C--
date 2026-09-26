@@ -212,6 +212,9 @@ C++/
     |   |-- Pointers (1).pdf
     |   |-- Pointers.pdf
     |   `-- q1.cpp
+    |-- Resources/
+    |   |-- C++_Pointers_annotated.pdf
+    |   `-- Pointers (2).pdf
     |-- arithmetic.cpp
     |-- dereferenceOperator.cpp
     |-- DoublePointer.cpp
@@ -223,7 +226,8 @@ C++/
     |-- pto.cpp
     |-- revistingVariables.cpp
     |-- sumNumber.cpp
-    `-- syntaxProblem.cpp
+    |-- syntaxProblem.cpp
+    `-- voidPointer.cpp
 ```
 <!-- FILE_TREE_END -->
 
