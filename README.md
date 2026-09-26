@@ -208,7 +208,10 @@ C++/
 |   |-- swap.cpp
 |   `-- swapWithoutTemp.cpp
 `-- Module 07/
+    |-- arithmetic.cpp
     |-- dereferenceOperator.cpp
+    |-- passAlias.cpp
+    |-- passByReference.cpp
     |-- pointerIntro.cpp
     |-- pto.cpp
     |-- revistingVariables.cpp
