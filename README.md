@@ -234,6 +234,7 @@ C++/
     |-- marks.cpp
     |-- memoryAllocation.cpp
     |-- sizeOperator.cpp
+    |-- sumOfArray.cpp
     `-- syntaxAndDeclaration.cpp
 ```
 <!-- FILE_TREE_END -->
