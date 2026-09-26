@@ -210,6 +210,9 @@ C++/
 `-- Module 07/
     |-- arithmetic.cpp
     |-- dereferenceOperator.cpp
+    |-- DoublePointer.cpp
+    |-- firstAndLast.cpp
+    |-- nullPointer.cpp
     |-- passAlias.cpp
     |-- passByReference.cpp
     |-- pointerIntro.cpp
