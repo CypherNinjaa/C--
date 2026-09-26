@@ -208,6 +208,10 @@ C++/
 |   |-- swap.cpp
 |   `-- swapWithoutTemp.cpp
 `-- Module 07/
+    |-- Assignments/
+    |   |-- Pointers (1).pdf
+    |   |-- Pointers.pdf
+    |   `-- q1.cpp
     |-- arithmetic.cpp
     |-- dereferenceOperator.cpp
     |-- DoublePointer.cpp
