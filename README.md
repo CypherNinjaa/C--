@@ -231,8 +231,12 @@ C++/
 `-- Module 08/
     |-- Resources/
     |   `-- array1annotated.pdf
+    |-- countGreater.cpp
+    |-- LinearSearch.cpp
     |-- marks.cpp
+    |-- maximumInArray.cpp
     |-- memoryAllocation.cpp
+    |-- secondLargest.cpp
     |-- sizeOperator.cpp
     |-- sumOfArray.cpp
     `-- syntaxAndDeclaration.cpp
