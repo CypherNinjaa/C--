@@ -250,7 +250,8 @@ C++/
 |   |-- sumOfArray.cpp
 |   `-- syntaxAndDeclaration.cpp
 `-- Module 9/
-    `-- passingArrayToFunction.cpp
+    |-- passingArrayToFunction.cpp
+    `-- pointerAndArray.cpp
 ```
 <!-- FILE_TREE_END -->
 
