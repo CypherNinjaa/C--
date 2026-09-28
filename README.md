@@ -250,8 +250,16 @@ C++/
 |   |-- sumOfArray.cpp
 |   `-- syntaxAndDeclaration.cpp
 `-- Module 9/
+    |-- capacity.cpp
+    |-- operationsOnVector.cpp
     |-- passingArrayToFunction.cpp
-    `-- pointerAndArray.cpp
+    |-- passingVectorToFunctions.cpp
+    |-- pointerAndArray.cpp
+    |-- tempCodeRunnerFile.cpp
+    |-- vectorAtSort.cpp
+    |-- vectorBasics.cpp
+    |-- vectorInput.cpp
+    `-- vectorWithSize.cpp
 ```
 <!-- FILE_TREE_END -->
 
