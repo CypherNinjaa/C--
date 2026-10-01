@@ -256,6 +256,9 @@ C++/
     |-- passingArrayToFunction.cpp
     |-- passingVectorToFunctions.cpp
     |-- pointerAndArray.cpp
+    |-- reverseVector.cpp
+    |-- swapVector.cpp
+    |-- twoSum.cpp
     |-- vectorAtSort.cpp
     |-- vectorBasics.cpp
     |-- vectorInput.cpp
