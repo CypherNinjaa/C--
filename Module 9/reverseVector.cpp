@@ -26,7 +26,7 @@ int main()
     // reverse order
     for (int i = 0; i < v2.size(); i++)
     {
-
+        // i+j=size-1;
         v2[i] = v[v.size() - 1 - i];
     }
     // print
