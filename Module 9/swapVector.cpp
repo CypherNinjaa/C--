@@ -1,4 +1,5 @@
 #include <iostream>
+#include<algorithm>
 #include <vector>
 using namespace std;
 void display(vector<int> &v2)
@@ -46,6 +47,7 @@ int main()
         v.at(i) = v.at(i) - v.at(j);
     }
 
+    // reverse(v.begin(),v.end());
     // print
     display(v);
 }

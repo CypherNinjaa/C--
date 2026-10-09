@@ -1,58 +1,30 @@
 from pathlib import Path
+import re
 
 
 README = Path("README.md")
 ROOT_LABEL = "C++/"
 START_MARKER = "<!-- FILE_TREE_START -->"
 END_MARKER = "<!-- FILE_TREE_END -->"
-
-EXCLUDED_DIRS = {
-    ".git",
-    ".github",
-    "assets",
-    "scripts",
-    "__pycache__",
-}
-
-EXCLUDED_SUFFIXES = {
-    ".exe",
-    ".pyc",
-}
+MODULE_NAME = re.compile(r"^Module\s+(\d+)$", re.IGNORECASE)
 
 
-def should_skip(path: Path) -> bool:
-    if any(part in EXCLUDED_DIRS for part in path.parts):
-        return True
-    if path.suffix.lower() in EXCLUDED_SUFFIXES:
-        return True
-    if path.name in {"README.md", ".gitignore"}:
-        return True
-    return False
-
-
-def visible_children(path: Path) -> list[Path]:
-    children = [child for child in path.iterdir() if not should_skip(child.relative_to(Path(".")))]
-    return sorted(children, key=lambda child: (not child.is_dir(), child.name.lower()))
-
-
-def build_tree(path: Path, prefix: str = "") -> list[str]:
-    lines = []
-    children = visible_children(path)
-
-    for index, child in enumerate(children):
-        is_last = index == len(children) - 1
-        connector = "`-- " if is_last else "|-- "
-        lines.append(f"{prefix}{connector}{child.name}{'/' if child.is_dir() else ''}")
-
-        if child.is_dir():
-            extension = "    " if is_last else "|   "
-            lines.extend(build_tree(child, prefix + extension))
-
-    return lines
+def module_directories() -> list[Path]:
+    modules = [
+        path
+        for path in Path(".").iterdir()
+        if path.is_dir() and MODULE_NAME.fullmatch(path.name)
+    ]
+    return sorted(modules, key=lambda path: int(MODULE_NAME.fullmatch(path.name).group(1)))
 
 
 def readme_block() -> str:
-    tree_lines = [ROOT_LABEL, *build_tree(Path("."))]
+    modules = module_directories()
+    tree_lines = [ROOT_LABEL]
+    for index, module in enumerate(modules):
+        connector = "`-- " if index == len(modules) - 1 else "|-- "
+        tree_lines.append(f"{connector}{module.name}/")
+
     return "\n".join(
         [
             START_MARKER,
