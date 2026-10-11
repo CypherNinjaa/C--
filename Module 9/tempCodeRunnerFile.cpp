@@ -1,3 +1,1 @@
-reversePart(v.size() - k+1, v.size(), v);
-    // cout<<"second time"<<endl;
-    // display(v);
+v3.at(k) = v2.at(j);
