@@ -1,20 +1,25 @@
 // Q4. Find the difference between the sum of elements at even indices to the sum of elements at odd indices.
 
 #include <iostream>
-    using namespace std;
+using namespace std;
 int main()
 {
     int arr[5] = {1, 2, 2, 4, 7};
-    for (int i = 1; i < 5; i++)
+    int sumE = 0, sumO = 0;
+    for (int i = 0; i < 5; i++)
     {
-        // Unsorted pair found
-        if (arr[i - 1] > arr[i])
+        // sum of even
+        if (arr[i] % 2 == 0)
         {
-            cout << "NO" << endl;
-            return 0;
+            sumE += arr[i];
+            // sumof odd
+        }
+        else
+        {
+            sumO += arr[i];
         }
     }
     // No unsorted pair found
-    cout << "YES" << endl;
+    cout << "Diff: "<<sumE-sumO << endl;
     return 0;
 }
