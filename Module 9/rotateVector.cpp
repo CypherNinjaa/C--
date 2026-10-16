@@ -33,7 +33,7 @@ int main()
 
     // rotate
     int size = v.size();
-    int k = 20;
+    int k = 2;
     if (k > size)
     {
         k = k % size;
