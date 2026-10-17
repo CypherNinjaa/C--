@@ -1,154 +1,66 @@
-# C++ Learning Lab
+# Data Structures & Algorithms in C++
 
-<div align="center">
+A hands-on DSA learning repository built from small, focused C++ programs. It follows the path from language fundamentals to array and vector problems, with practice organized by topic.
 
-![C++](https://img.shields.io/badge/C++-Learning%20Journey-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Modules](https://img.shields.io/badge/Organized-Module%20By%20Module-7C3AED?style=for-the-badge)
-![Last Commit](https://img.shields.io/github/last-commit/CypherNinjaa/C--?style=for-the-badge&color=22C55E)
-![Repo Size](https://img.shields.io/github/repo-size/CypherNinjaa/C--?style=for-the-badge&color=F59E0B)
+The examples are learning exercises rather than a single application: most `.cpp` files are standalone programs with their own `main()`.
 
-# Building C++ One Concept At A Time
+## Learning path
 
-This repository is my personal C++ practice space, organized module by module so every topic is easy to find, revisit, compile, and improve.
+| Area | Topics |
+|---|---|
+| `Module 02` | C++ fundamentals, variables, types, operators, and input/output |
+| `Module 03` | Conditions, branching, and decision-making problems |
+| `Module 04` | Loops, number problems, and iteration |
+| `Module 05` | Pattern printing and nested-loop practice |
+| `Module 06` | Functions, parameters, return values, and decomposition |
+| `Module 07` | Pointers, references, and memory fundamentals |
+| `Module 08` | Arrays, array operations, and linear search |
+| `Module 9` | Vectors and array problems, including searching, sorting, merging, and rotation |
+| `Module 10` | 2D array study materials and assignments |
+| `revision` | Review problems for array and vector techniques |
+| `LeetCode` | Selected problem-solving exercises |
 
-[Explore Modules](#module-map) . [Run Programs](#run-a-program) . [Commit Graph](#commit-pulse) . [Roadmap](#learning-roadmap)
+## Compile and run one program
 
-</div>
+Compile one source file at a time. Many files define their own `main()`, so compiling multiple exercises together can cause duplicate-entry-point errors.
 
----
-
-## About This Repo
-
-I am learning C++ from the foundations upward. Each folder is a small checkpoint in the journey: simple programs, focused examples, and hands-on practice with the language.
-
-The goal is not just to write code. The goal is to understand how C++ thinks.
-
-## What Makes It Interesting
-
-- Clean module-by-module structure for easy learning.
-- Small programs that focus on one concept at a time.
-- Beginner-friendly examples that can be compiled quickly.
-- A growing timeline of progress through commits and practice.
-- A learning-first setup where every file has a purpose.
-
-## Module Map
-
-| Module | Topic Area | What It Covers | Files |
-|---|---|---|---|
-| Module 02 | Escape Sequences | Printing text, numbers, and special output formatting | [Open](Module%2002/escape%20sequence) |
-| Module 02 | Variables | Basic variable declaration and usage | [Open](Module%2002/Variable%20declaration) |
-| Module 02 | Arithmetic Operators | Arithmetic, increment, and decrement operators | [Open](Module%2002/ArithmeticOperators) |
-
-## Current File Tree
-
-This tree is auto-generated and lists module folder names only.
-
-<!-- FILE_TREE_START -->
-```text
-C++/
-|-- Module 02/
-|-- Module 03/
-|-- Module 04/
-|-- Module 05/
-|-- Module 06/
-|-- Module 07/
-|-- Module 08/
-`-- Module 9/
-```
-<!-- FILE_TREE_END -->
-
-## Run A Program
-
-Use any C++ compiler such as `g++`.
+From the repository root with `g++`:
 
 ```bash
-g++ "Module 02/ArithmeticOperators/incrementDecrement.cpp" -o incrementDecrement
-./incrementDecrement
+g++ -std=c++17 "Module 9/vectorBasics.cpp" -o vectorBasics
+./vectorBasics
 ```
 
 On Windows PowerShell:
 
 ```powershell
-g++ "Module 02\ArithmeticOperators\incrementDecrement.cpp" -o incrementDecrement.exe
-.\incrementDecrement.exe
+g++ -std=c++17 "Module 9\vectorBasics.cpp" -o vectorBasics.exe
+.\vectorBasics.exe
 ```
 
-## Commit Pulse
+Replace the source path with the exercise you want to run. The program's expected input and output are defined by that individual exercise.
 
-This chart is generated from this repository's own Git history. It updates after new commits are pushed to `main`, so it shows progress for this C++ repo only.
+## Delete compiled executables
 
-<div align="center">
+From the repository root, run:
 
-![Repository Commit Chart](assets/commit-graph.svg)
-
-</div>
-
-The chart and file tree are refreshed automatically by [update-commit-graph.yml](.github/workflows/update-commit-graph.yml).
-
-## Learning Roadmap
-
-| Status | Concept | Notes |
-|---|---|---|
-| Done | Hello World | First output programs |
-| Done | Escape Sequences | Formatting output |
-| Done | Variables | Declaring and using values |
-| Done | Arithmetic Operators | Basic math operations |
-| Done | Increment / Decrement | `++` and `--` operators |
-| Next | Input / Output | Reading values from users |
-| Next | Conditions | `if`, `else`, and decision making |
-| Next | Loops | Repeating logic with `for`, `while`, and `do while` |
-| Next | Functions | Breaking programs into reusable blocks |
-| Next | Arrays and Strings | Working with collections and text |
-| Next | Pointers | Understanding memory basics |
-| Next | OOP | Classes, objects, constructors, and inheritance |
-
-## Practice Style
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    int skill = 1;
-    skill++;
-
-    cout << "Learning level: " << skill << endl;
-    return 0;
-}
+```bash
+python scripts/clean_exe.py
 ```
 
-## Repository Philosophy
+The script scans the repository recursively, deletes `.exe` files, and reports each deletion. It skips Git's internal `.git` directory.
 
-```text
-Learn the concept.
-Write the code.
-Run the program.
-Fix the mistake.
-Commit the progress.
-Repeat.
-```
+## A useful problem-solving loop
 
-## Quick Links
+1. Read the problem and identify its inputs, outputs, and constraints.
+2. Work through a small example by hand before coding.
+3. Implement the simplest correct approach.
+4. Test edge cases such as empty or single-element input, duplicates, and boundary values when they apply.
+5. State the time and space complexity; optimize only when the constraints call for it.
 
-- [Arithmetic Operators](Module%2002/ArithmeticOperators)
-- [Variable Declaration](Module%2002/Variable%20declaration)
-- [Escape Sequence](Module%2002/escape%20sequence)
+## Repository conventions
 
-## Notes To Future Me
-
-- Keep every program small and clear.
-- Add comments only where they help understanding.
-- Keep modules organized by topic.
-- Push progress often so the commit graph shows the journey.
-- Build projects after learning the basics.
-
----
-
-<div align="center">
-
-### Made while learning C++
-
-Every commit is one step closer to mastery.
-
-</div>
+- Browse by module and topic; each source file is an independent exercise.
+- Keep new exercises with the related topic instead of building one large program.
+- Use descriptive names and keep examples focused on the concept being practiced.
+- The module overview above is intentionally high-level; new exercise files do not need README edits.
