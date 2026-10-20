@@ -27,5 +27,9 @@ int main()
     v.push_back(v2);
     v.push_back(v3);
     cout << v[1][1]<<endl;
-    cout << v[0][10]; // invalid
+    cout << v[0][10]<<endl; // invalid
+
+    cout << "column size:" << v[0].size() << endl;
+    cout << "column size:" << v[1].size() << endl;
+    cout << "column size:" << v[2].size() << endl;
 }
