@@ -1,4 +1,4 @@
-// Q1. Write a program to print the elements of both the diagonals in a square matrix.
+// Q7. Write a program to print the elements of both the diagonals in a square matrix.
 #include <iostream>
 #include <vector>
 using namespace std;
