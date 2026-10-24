@@ -1,0 +1,1 @@
+// Q5. Given a sentence ‘str’, return the word that is lexicographically maximum.
