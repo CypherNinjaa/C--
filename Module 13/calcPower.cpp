@@ -13,6 +13,7 @@ int power(int a, int b)
         return 1;
     }
     return a * power(a, b - 1); //  recursive call
+    // S.C=O(n)stack frames
 }
 
 int main()
